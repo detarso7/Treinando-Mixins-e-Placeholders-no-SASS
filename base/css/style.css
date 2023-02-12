@@ -1,0 +1,82 @@
+div, main {
+  background: red;
+}
+div h2, main h2 {
+  color: #fff;
+}
+
+p {
+  color: blue;
+}
+
+main {
+  padding: 10px 0 30px 10px;
+}
+main p {
+  color: #333;
+}
+main a {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  transition: 0.5s;
+  text-decoration: none;
+}
+main a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.sessao {
+  margin: 50px;
+}
+.sessao .btn {
+  padding: 20px 40px;
+  margin: 50px 5px 50px 50px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sessao .btn:hover {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+.sessao .btn-sucesso {
+  background-color: #ad0606;
+  color: #fff;
+}
+.sessao .btn-sucesso:hover {
+  color: #ad0606;
+  border: 1px solid #ad0606;
+}
+.sessao .btn-danger {
+  background-color: #04963c;
+  color: #fff;
+}
+.sessao .btn-danger:hover {
+  color: #04963c;
+  border: 1px solid #04963c;
+}
+
+.title-dois, .title {
+  background: blue;
+  padding: 20px;
+  border-bottom: 5px double #333;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+}
+.title-dois {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+@mixin p-especial
+    padding: 10px
+    border: 1px solid #666
+    &:hover
+        border: 1px solid #9ee914
+
+@mixin esp($altura, $largura)
+    padding: $altura
+    margin: $largura
+    
+@mixin esp-border($style, $color, $border: 1px)
+    border: $border $style $color
+
+@mixin hover($bg-hover)
+    background-color: $bg-hover
+
+@mixin colors($bg: #888, $text: #001)
+    background-color: $bg
+    color: $text
+
+

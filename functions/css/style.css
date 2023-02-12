@@ -1,0 +1,65 @@
+.btn {
+  background-color: #333;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  width: 150px;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+.esp-maior, .esp-medio, .esp-menor {
+  font-size: 40px;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 30px;
+}
+
+.p-especial {
+  padding: 10px;
+  border: 1px solid #666;
+}
+.p-especial:hover {
+  border: 1px solid #9ee914;
+}
+
+.esp-menor {
+  padding: 10;
+  margin: 30;
+  border: 1px solid #333;
+}
+.esp-menor:hover {
+  background-color: #f6f890;
+  color: #001;
+}
+
+.esp-medio {
+  padding: 10;
+  margin: 30;
+  border: 1px dotted #555;
+}
+.esp-medio:hover {
+  background-color: #727404;
+  color: #fff;
+}
+
+.esp-maior {
+  padding: 10;
+  margin: 30;
+  border: 1px double #999;
+}
+.esp-maior:hover {
+  background-color: #ce0f7e;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
