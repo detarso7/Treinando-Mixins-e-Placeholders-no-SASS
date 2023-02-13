@@ -52,5 +52,14 @@ body
 
 .cost-border3
     margin-top: 30px
-    border: cost-border(4)
+    border: cost-border()
     width: size-box($width: 900px)
+
+$fonts: 40px, 60px, 100px
+@each $fo in $fonts
+    .title-#{$fo}
+        font-size: $fo
+        line-height: $fo + 10
+        border: 1px solid #333
+        background-color: red 
+     
