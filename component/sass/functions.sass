@@ -1,3 +1,5 @@
+@charset 'UTF-8'
+    
 @function text-color($size)
 
     $color:#000
@@ -10,10 +12,14 @@
 
     @return $color
 
-@function cost-border($var)
+@function cost-border($var:1)
     
     $border:none
+    $num:4
 
+    @if $var >= $num
+        //@error "Insira um numero menor que 4"
+        @warn "Insira um numero menor que #{$num}"
     @if $var == 1
         $border: 1px solid #333
     @else if $var == 2
@@ -26,5 +32,7 @@
 
 
 @function size-box($width:500px, $division:1)
+
+    @debug "O valor da divisão é #{$width / $division}"
     
     @return $width / $division
