@@ -59,7 +59,19 @@ $fonts: 40px, 60px, 100px
 @each $fo in $fonts
     .title-#{$fo}
         font-size: $fo
-        line-height: $fo + 10
+        line-height: $fo * 1.2
         border: 1px solid #333
-        background-color: red 
+        background-color: #0ab62f
+
+@for $i from 1 through 3
+    .t-#{$i}
+        @if $i == 1
+            color: red
+        @else if $i == 2
+            color: blue 
+        @else if $i == 3
+            color: green
+        background-color: #666
+            
+     
      
