@@ -1,0 +1,30 @@
+@function text-color($size)
+
+    $color:#000
+
+    @if $size > 30
+        $color: #d40c0c
+    @else 
+        $color: #3c036b
+
+
+    @return $color
+
+@function cost-border($var)
+    
+    $border:none
+
+    @if $var == 1
+        $border: 1px solid #333
+    @else if $var == 2
+        $border: 3px solid #af2020
+    @else 
+        $border: 6px solid #087520
+        
+    @return $border
+
+
+
+@function size-box($width:500px, $division:1)
+    
+    @return $width / $division

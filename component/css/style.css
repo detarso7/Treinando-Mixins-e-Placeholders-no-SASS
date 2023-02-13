@@ -62,4 +62,27 @@ body {
   color: #ffffff;
 }
 
+.h-color {
+  font-size: 20px;
+  color: #d40c0c;
+}
+
+.cost-border1 {
+  margin-top: 30px;
+  border: 1px solid #333;
+  width: 300px;
+}
+
+.cost-border2 {
+  margin-top: 30px;
+  border: 3px solid #af2020;
+  width: 450px;
+}
+
+.cost-border3 {
+  margin-top: 30px;
+  border: 6px solid #087520;
+  width: 900px;
+}
+
 /*# sourceMappingURL=style.css.map */

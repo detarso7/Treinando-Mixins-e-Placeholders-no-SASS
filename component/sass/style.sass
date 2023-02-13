@@ -2,6 +2,7 @@
 @import 'button'
 @import 'mixins'
 @import 'placeholders'
+@import 'functions'
 
 body
     margin: 30px
@@ -32,3 +33,22 @@ body
     @extend %h2-title
     &:hover
         @include colors($text: #ffffff, $bg: #ce0f7e )
+
+.h-color
+    font-size: 20px
+    color: text-color(40px)
+
+.cost-border1
+    margin-top: 30px
+    border: cost-border(1)
+    width: size-box($width: 900px, $division: 3)
+
+.cost-border2
+    margin-top: 30px
+    border: cost-border(2)
+    width: size-box($width: 900px, $division: 2)
+
+.cost-border3
+    margin-top: 30px
+    border: cost-border(3)
+    width: size-box($width: 900px)
